@@ -1,7 +1,11 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "Endpoint=sb://josmenhart-a800c615-a229-424a-a42f-c8c08fe9ab85.servicebus.windows.net/;SharedAccessKeyName=QuickstartQueueSAS;SharedAccessKey=lWrQ2uiBQVTAFPnrpg7uHbUl3O1T7nbeN5RhyE033yk=",
+    "QueueName": "quickstartexamplequeue",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=targetblobstore;AccountKey=UpKwFzOxpt8e/Mql/Ge9qJ0+jAaGLA4w4hHAci9VHeDTt494uCMs1v2nwtf/0HKyAIRQrPzWymXV5lNCmhDSJQ==;EndpointSuffix=core.windows.net",
+    "StorageKey": "UpKwFzOxpt8e/Mql/Ge9qJ0+jAaGLA4w4hHAci9VHeDTt494uCMs1v2nwtf/0HKyAIRQrPzWymXV5lNCmhDSJQ=="
+  }
 }
